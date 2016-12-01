@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         playVideoBtn = (Button) findViewById(R.id.btnPlay);
         back = (Button) findViewById(R.id.btnBack);
-        videoView = (VideoView) findViewById(R.id.videoViewArea);
+
 //        videoViewPlay = (VideoView) findViewById(R.id.videoViewArea);
 
 
@@ -31,7 +31,7 @@ public class Main2Activity extends AppCompatActivity {
 
 
     public void playVideo(View view) {
-
+        videoView = (VideoView) findViewById(R.id.videoViewArea);
        // videoView.setVideoURI(Uri.parse("android.resource://" + getPackageName()
          //       + "/" + R.raw.bunny));
      //   videoView.setVideoPath("android.resource://" + getPackageName()
